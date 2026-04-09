@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct TaskRowView: View {
-    // Принимаем Binding к задаче, чтобы иметь возможность изменять ее isCompleted состояние
     @Binding var task: Task
     
     var body: some View {
@@ -26,7 +25,6 @@ struct TaskRowView: View {
     }
     
     private func toggleTaskCompletion() {
-        // Мы можем напрямую менять task, потому что получили ее как Binding
         task.isCompleted.toggle()
     }
 }
