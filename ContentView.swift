@@ -1,9 +1,3 @@
- //
-//  ContentView.swift
-//  to do list
-//
-//  Created by Влад Лизогуб on 22.08.2025.
-//
 
 import SwiftUI
 
